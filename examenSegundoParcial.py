@@ -186,7 +186,7 @@ def main():
     cv.imshow("Gauss smoothed", gauss)              # Suavizado de objetos umbralizados
     cv.imwrite("Gauss_smoothed.png", gauss)         # Guardar suavizado de objetos umbralizados
     cv.imshow("Bordered objects", canny)            # Contornos de objetos umbralizados
-    cv.imshow("Bordered_objects.png", canny)        # Guardar contornos de objetos umbralizados
+    cv.imwrite("Bordered_objects.png", canny)        # Guardar contornos de objetos umbralizados
     cv.waitKey()
 
 
